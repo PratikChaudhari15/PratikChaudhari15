@@ -4,7 +4,6 @@
   </a>
 </p>
 
-
 ![MasterHead](https://img.freepik.com/free-photo/man-using-laptop-night-top-view-web-banner-with-copy-space_169016-53607.jpg?t=st=1731839381~exp=1731842981~hmac=216e1eee93ce69f62156dbe8e217a8fa08b73c5710eff53689a9b9851884462d&w=1380)
 <h1 align="center">Hello <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Pratik Bhatu Chaudhari</h1>
 
