@@ -7,9 +7,14 @@
 </p>
 <p align="left"> <a href="https://twitter.com/pratikc27596085" target="blank"><img src="https://img.shields.io/twitter/follow/pratikc27596085?logo=twitter&style=for-the-badge" alt="pratikc27596085" /></a> </p>
 
-- 🔭 I’m currently working on **Real Time Collaborative Code Editor**
 
-- 🌱 I’m currently learning **React,Node.js,Backend**
+
+💻 **About Me:**
+- 🎯 A passionate **Frontend Developer** who loves building interactive user interfaces.
+- 🚀 I am currently exploring **React** and **Node.js** to broaden my backend knowledge.
+- 🌱 I strive to learn and apply **cutting-edge web technologies** to real-world projects.
+- 🎨 Creativity and problem-solving are my strongest assets.
+- 🏆 Involved in open-source and building innovative projects like **Real-Time Collaborative Code Editor**.
 
 - 👨‍💻 All of my projects are available at [https://github.com/PratikChaudhari15](https://github.com/PratikChaudhari15)
 
@@ -19,7 +24,7 @@
 
 - 📫 How to reach me **pratik.chaudhari15.03@gmail.com**
 
-- 📄 Know about my experiences [https://bit.ly/3Zay80W)
+- 📄 Know about my experiences [here](https://bit.ly/3Zay80W)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -36,3 +41,27 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pratikchaudhari15&show_icons=true&locale=en" alt="pratikchaudhari15" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pratikchaudhari15&" alt="pratikchaudhari15" /></p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pratikchaudhari15&bg_color=0d1117&color=ffffff&line=00e676&point=00e676&area=true" alt="Activity Graph">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pratikchaudhari15&theme=darkhub&no-frame=true" alt="GitHub Trophies">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pratikchaudhari15&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pratikchaudhari15&show_icons=true&locale=en&theme=radical" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikchaudhari15&theme=radical" alt="Streak Stats" />
+</p>
+
+<p align="center">
+  🌟 Thank you for visiting my profile! Let's connect and create something awesome together.
+</p>
