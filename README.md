@@ -70,7 +70,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikchaudhari15&theme=radical" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats-wjz5-git-main-ujjwal-dethes-projects.vercel.app?user=PratikChaudhari15&theme=radical" alt="Streak Stats" />
 </p>
 
 <p align="center">
