@@ -1,1 +1,29 @@
+name: Daily Auto Commit
 
+on:
+  schedule:
+    - cron: '51 4 * * *' # Runs daily at 10:00 AM IST
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Clear and Update .txt Files
+        run: |
+          # Clear contents of all .txt files in the repository
+          find . -name "*.txt" -type f -exec sh -c '> "$1"' _ {} \;
+
+          # Add a new timestamp to daily-log.txt
+          echo "Updated on $(date)" >> daily-log.txt
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "PratikChaudhari15"
+          git config --global user.email "pratik.chaudhari15.03@gmail.com"
+          git add .
+          git commit -m "$(date)"
+          git push
