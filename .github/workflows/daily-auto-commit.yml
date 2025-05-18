@@ -3,7 +3,6 @@ name: 🔄 Daily Auto Commit
 on:
   schedule:
     cron: '15 13 * * *' # 6:45 PM IST
-
   workflow_dispatch:
 
 jobs:
