@@ -1,8 +1,8 @@
-name: 🔄 Daily Auto Commit
+name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '15 13 * * *' # 6:45 PM IST
+    - cron: '20 13 * * *' # Runs daily at 6:45 PM IST
   workflow_dispatch:
 
 jobs:
@@ -10,25 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📦 Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
 
-      - name: 🧹 Clear and Update .txt Files
+      - name: Clear and Update .txt Files
         run: |
+          # Clear contents of all .txt files
           find . -name "*.txt" -type f -exec sh -c '> "$1"' _ {} \;
-          echo "Updated on $(date -u)" >> daily-log.txt
 
-      - name: ✅ Commit and Push Changes
+          # Add a timestamp to daily-log.txt
+          echo "Updated on $(date)" >> daily-log.txt
+
+      - name: Commit and Push Changes
         run: |
-          git config user.name "PratikChaudhari15"
-          git config user.email "pratik.chaudhari15.03@gmail.com"
-
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git add .
-            git commit -m "📅 Auto commit: $(date -u)"
-            git push
-          fi
+          git config --global user.name "PratikChaudhari15"
+          git config --global user.email "pratik.chaudhari15.03@gmail.com"
+          git add .
+          git commit -m "📅 Auto commit on $(date)"
+          git push
+        env:
+          # Use GitHub token for authentication
+          GIT_ASKPASS: echo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
